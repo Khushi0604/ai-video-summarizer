@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+temp/
+vid_*/
+*.wav
+frames/
+
+# Large outputs
+*_FULL_TRANSCRIPT.txt
+*_summary.json
+*_SUMMARY_FOR_GITHUB.md
+
+# API keys
+.env
+
+# Media files
+*.mp4
+*.mov
+*.avi
+*.mkv

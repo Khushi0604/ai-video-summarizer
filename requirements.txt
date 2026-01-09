@@ -1,0 +1,8 @@
+whisper 
+torch
+transformers
+Pillow
+tqdm
+groq
+ffmpeg-python
+json-repair
