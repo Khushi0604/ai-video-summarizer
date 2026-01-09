@@ -115,4 +115,3 @@ Check the `samples/` folder for:
 
 These are included to help reviewers and recruiters quickly understand the project output without running the code.
 
-```
