@@ -9,9 +9,9 @@ generates image captions using BLIP, and produces a structured summary using Gro
 - Chunked LLM summarization (JSON-safe)
 - GitHub-ready markdown output
 
-## Setup
+#### Setup
 1. Clone repository
-```bash
+bash
 git clone https://github.com/your-username/ai-video-summarizer.git
 cd ai-video-summarizer
 
@@ -23,9 +23,10 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 4. Set environment variables
-setx GROQ_API_KEY "your_api_key_here"      #For Windows
-
-export GROQ_API_KEY="your_api_key_here"    #For MacOS/Linux
+- For Windows
+setx GROQ_API_KEY "your_api_key_here" 
+- For MacOS/Linux     
+export GROQ_API_KEY="your_api_key_here"    
 
 ## Usage
 python video_summarizer.py input_video.mp4
