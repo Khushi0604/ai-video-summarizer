@@ -16,6 +16,7 @@ temp/
 vid_*/
 *.wav
 frames/
+not_to_add_to_git/
 
 # Large outputs (generated per run)
 *_FULL_TRANSCRIPT.txt
