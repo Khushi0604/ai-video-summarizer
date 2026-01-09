@@ -1,4 +1,13 @@
+You’re very close. GitHub is flattening things because **code blocks are missing triple backticks and blank lines**.
+
+Below is your **fully corrected README**, formatted **exactly the way GitHub expects**.
+You can **copy-paste this as-is** into your `README.md`.
+
+---
+
+````md
 # AI Video Summarizer (Multimodal)
+
 This project extracts audio and frames from a video, transcribes speech using Whisper,
 generates image captions using BLIP, and produces a structured summary using Groq LLMs.
 
@@ -9,43 +18,64 @@ generates image captions using BLIP, and produces a structured summary using Gro
 - Chunked LLM summarization (JSON-safe)
 - GitHub-ready markdown output
 
-#### Setup
-1. Clone repository
-bash
+## Setup
+
+### 1. Clone repository
+```bash
 git clone https://github.com/your-username/ai-video-summarizer.git
 cd ai-video-summarizer
+````
 
-2. Create Virtual Environment
+### 2. Create Virtual Environment
+
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
-3.  Install dependencies
+### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-4. Set environment variables
-- For Windows
-setx GROQ_API_KEY "your_api_key_here" 
-- For MacOS/Linux     
-export GROQ_API_KEY="your_api_key_here"    
+### 4. Set environment variables
+
+#### Windows
+
+```powershell
+setx GROQ_API_KEY "your_api_key_here"
+```
+
+#### MacOS / Linux
+
+```bash
+export GROQ_API_KEY="your_api_key_here"
+```
 
 ## Usage
+
+```bash
 python video_summarizer.py input_video.mp4
+```
 
 ## Notes
 
-All AI models are used via APIs or open-source libraries.
-Project emphasizes pipeline design, error handling, and prompt control.
-AI assistance was used during development for debugging and iteration.
+* All AI models are used via APIs or open-source libraries.
+* Project emphasizes pipeline design, error handling, and prompt control.
+* AI assistance was used during development for debugging and iteration.
 
 ## Outputs
-video name_ FULL_TRANSCRIPT.txt
-video_name_summary.json
-video_name_SUMMARY_FOR_GITHUB.md
+
+* `video_name_FULL_TRANSCRIPT.txt`
+* `video_name_summary.json`
+* `video_name_SUMMARY_FOR_GITHUB.md`
 
 ## Tested on
-Windows 10
-Python 3.10+
-CPU & CUDA
+
+* Windows 10
+* Python 3.10+
+* CPU & CUDA
 
 ## 🔑 API Key Setup
 
@@ -53,7 +83,7 @@ This project uses an LLM API (Groq / OpenAI-compatible) for summarization.
 
 ### Step-by-step to get your API key
 
-1. Go to https://console.groq.com/
+1. Go to [https://console.groq.com/](https://console.groq.com/)
 2. Sign in using Google/GitHub or create an account
 3. Navigate to **API Keys**
 4. Click **Create API Key**
@@ -64,17 +94,25 @@ This project uses an LLM API (Groq / OpenAI-compatible) for summarization.
 ⚠️ **Do NOT hardcode your API key in the code**
 
 #### Windows (PowerShell)
+
 ```powershell
 setx GROQ_API_KEY "your_api_key_here"
+```
 
-# For MacOS/Linux
+#### MacOS / Linux
+
+```bash
 export GROQ_API_KEY="your_api_key_here"
-
+```
 
 ## 📁 Sample Outputs
+
 Check the `samples/` folder for:
-- Demo input video
-- Generated markdown summary
-- Transcript snippet
+
+* Demo input video
+* Generated markdown summary
+* Transcript snippet
 
 These are included to help reviewers and recruiters quickly understand the project output without running the code.
+
+```
