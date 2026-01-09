@@ -17,7 +17,7 @@ vid_*/
 *.wav
 frames/
 
-# Large outputs
+# Large outputs (generated per run)
 *_FULL_TRANSCRIPT.txt
 *_summary.json
 *_SUMMARY_FOR_GITHUB.md
@@ -25,8 +25,12 @@ frames/
 # API keys
 .env
 
-# Media files
-*.mp4
+# Media files (ignore large videos)
 *.mov
 *.avi
 *.mkv
+*.mp4
+
+# Allow sample/demo media
+!samples/
+!samples/*.mp4

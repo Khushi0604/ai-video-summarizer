@@ -68,3 +68,12 @@ setx GROQ_API_KEY "your_api_key_here"
 
 # For MacOS/Linux
 export GROQ_API_KEY="your_api_key_here"
+
+
+## 📁 Sample Outputs
+Check the `samples/` folder for:
+- Demo input video
+- Generated markdown summary
+- Transcript snippet
+
+These are included to help reviewers and recruiters quickly understand the project output without running the code.
