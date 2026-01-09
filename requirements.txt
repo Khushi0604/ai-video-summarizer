@@ -6,3 +6,5 @@ tqdm
 groq
 ffmpeg-python
 json-repair
+black
+isort
