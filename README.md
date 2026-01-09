@@ -11,7 +11,7 @@ generates image captions using BLIP, and produces a structured summary using Gro
 
 ## Setup
 1. Clone repository
-bash
+```bash
 git clone https://github.com/your-username/ai-video-summarizer.git
 cd ai-video-summarizer
 
