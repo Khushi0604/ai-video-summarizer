@@ -45,3 +45,26 @@ video_name_SUMMARY_FOR_GITHUB.md
 Windows 10
 Python 3.10+
 CPU & CUDA
+
+## 🔑 API Key Setup
+
+This project uses an LLM API (Groq / OpenAI-compatible) for summarization.
+
+### Step-by-step to get your API key
+
+1. Go to https://console.groq.com/
+2. Sign in using Google/GitHub or create an account
+3. Navigate to **API Keys**
+4. Click **Create API Key**
+5. Copy the generated key
+
+### How to use the API key locally
+
+⚠️ **Do NOT hardcode your API key in the code**
+
+#### Windows (PowerShell)
+```powershell
+setx GROQ_API_KEY "your_api_key_here"
+
+# For MacOS/Linux
+export GROQ_API_KEY="your_api_key_here"
