@@ -24,6 +24,7 @@ pip install -r requirements.txt
 
 4. Set environment variables
 setx GROQ_API_KEY "your_api_key_here"      #For Windows
+
 export GROQ_API_KEY="your_api_key_here"    #For MacOS/Linux
 
 ## Usage
@@ -36,9 +37,9 @@ Project emphasizes pipeline design, error handling, and prompt control.
 AI assistance was used during development for debugging and iteration.
 
 ## Outputs
-<video>_FULL_TRANSCRIPT.txt
-<video>_summary.json
-<video>_SUMMARY_FOR_GITHUB.md
+video name_ FULL_TRANSCRIPT.txt
+video_name_summary.json
+video_name_SUMMARY_FOR_GITHUB.md
 
 ## Tested on
 Windows 10
