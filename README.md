@@ -1,11 +1,3 @@
-You’re very close. GitHub is flattening things because **code blocks are missing triple backticks and blank lines**.
-
-Below is your **fully corrected README**, formatted **exactly the way GitHub expects**.
-You can **copy-paste this as-is** into your `README.md`.
-
----
-
-````md
 # AI Video Summarizer (Multimodal)
 
 This project extracts audio and frames from a video, transcribes speech using Whisper,
