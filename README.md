@@ -47,9 +47,9 @@ export GROQ_API_KEY="your_api_key_here"
 
 ## Usage
 
-```bash
-python video_summarizer.py input_video.mp4
-```
+Run the main python file.
+For example: python video_summarizer.py input_video.mp4
+
 
 ## Notes
 
@@ -61,7 +61,6 @@ python video_summarizer.py input_video.mp4
 
 * `video_name_FULL_TRANSCRIPT.txt`
 * `video_name_summary.json`
-* `video_name_SUMMARY_FOR_GITHUB.md`
 
 ## Tested on
 
